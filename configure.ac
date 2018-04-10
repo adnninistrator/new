@@ -6,13 +6,13 @@ define(_CLIENT_VERSION_REVISION, 2)
 define(_CLIENT_VERSION_BUILD, 0)
 define(_CLIENT_VERSION_IS_RELEASE, true)
 define(_COPYRIGHT_YEAR, 2018)
-AC_INIT([DeepOnion Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/deeponion/deeponion-dv/issues],[deeponion],[http://deeponion.org/])
+AC_INIT([FItAllCoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[https://github.com/deeponion/deeponion-dv/issues],[deeponion],[http://deeponion.org/])
 AC_CONFIG_AUX_DIR([src/build-aux])
 AC_CONFIG_MACRO_DIR([src/m4])
 AC_CANONICAL_HOST
-AH_TOP([#ifndef DEEPONION_CONFIG_H])
-AH_TOP([#define DEEPONION_CONFIG_H])
-AH_BOTTOM([#endif //DEEPONION_CONFIG_H])
+AH_TOP([#ifndef FITALLCOIN_CONFIG_H])
+AH_TOP([#define FITALLCOIN_CONFIG_H])
+AH_BOTTOM([#endif //FITALLCOIN_CONFIG_H])
 AX_SUBDIRS_CONFIGURE([tor], [[--disable-unittests], [--disable-system-torrc], [--disable-systemd], [--disable-lzma], [--disable-asciidoc], [--with-openssl-dir=$($PKG_CONFIG --variable=libdir openssl)], [CFLAGS=$($PKG_CONFIG --cflags openssl) -fPIC -O2]])
 
 
@@ -571,7 +571,7 @@ fi
 
 BITCOIN_QT_PATH_PROGS([PROTOC], [protoc],$protoc_bin_path)
 
-AC_MSG_CHECKING([whether to build DeepOniond])
+AC_MSG_CHECKING([whether to build FItAllCoind])
 AM_CONDITIONAL([BUILD_BITCOIND], [test x$build_bitcoind = xyes])
 AC_MSG_RESULT($build_bitcoind)
 

@@ -91,13 +91,13 @@ BitcoinGUI::BitcoinGUI(QWidget *parent) : QMainWindow(parent),
 
 #ifdef Q_OS_MAC
     resize(960, 610);
-    setWindowTitle(tr("DeepOnion wallet - Mac"));
+    setWindowTitle(tr("FItAllCoin wallet - Mac"));
 #elif _WIN32
     resize(890, 600);
-    setWindowTitle(tr("DeepOnion wallet - Windows"));
+    setWindowTitle(tr("FItAllCoin wallet - Windows"));
 #else
     resize(1020, 650);
-    setWindowTitle(tr("DeepOnion wallet - Linux"));
+    setWindowTitle(tr("FItAllCoin wallet - Linux"));
 #endif
 
 #ifndef Q_OS_MAC
@@ -281,7 +281,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(messageAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send coins"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a DeepOnion address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a FItAllCoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(sendCoinsAction);
@@ -321,8 +321,8 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About DeepOnion"), this);
-    aboutAction->setToolTip(tr("Show information about DeepOnion"));
+    aboutAction = new QAction(QIcon(":/icons/bitcoin"), tr("&About FItAllCoin"), this);
+    aboutAction->setToolTip(tr("Show information about FItAllCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
 #if QT_VERSION < 0x050000
     aboutQtAction = new QAction(QIcon(":/trolltech/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
@@ -332,7 +332,7 @@ void BitcoinGUI::createActions()
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for DeepOnion"));
+    optionsAction->setToolTip(tr("Modify configuration options for FItAllCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -438,7 +438,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if (trayIcon)
             {
-                trayIcon->setToolTip(tr("DeepOnion client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("FItAllCoin client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -515,7 +515,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("DeepOnion client"));
+    trayIcon->setToolTip(tr("FItAllCoin client"));
 
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
 
@@ -603,7 +603,7 @@ void BitcoinGUI::setNumConnections(int count)
         break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to DeepOnion network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to FItAllCoin network", "", count));
 
     if (fTorEnabled == 1)
     {
@@ -944,7 +944,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid DeepOnion address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid FItAllCoin address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -959,7 +959,7 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid DeepOnion address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid FItAllCoin address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

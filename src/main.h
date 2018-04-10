@@ -521,7 +521,7 @@ public:
 
     bool IsCoinStake() const
     {
-        // DeepOnion: the coin stake transaction is marked with the first output empty
+        // FItAllCoin: the coin stake transaction is marked with the first output empty
         return (vin.size() > 0 && (!vin[0].prevout.IsNull()) && vout.size() >= 2 && vout[0].IsEmpty());
     }
 
@@ -685,7 +685,7 @@ public:
     bool ClientConnectInputs();
     bool CheckTransaction() const;
     bool AcceptToMemoryPool(CTxDB& txdb, bool fCheckInputs=true, bool* pfMissingInputs=NULL);
-    bool GetCoinAge(CTxDB& txdb, uint64_t& nCoinAge) const;  // DeepOnion: get transaction coin age
+    bool GetCoinAge(CTxDB& txdb, uint64_t& nCoinAge) const;  // FItAllCoin: get transaction coin age
 
 protected:
     const CTxOut& GetOutputFor(const CTxIn& input, const MapPrevTx& inputs) const;
@@ -832,7 +832,7 @@ public:
   // network and disk
   std::vector<CTransaction> vtx;
 
-  // DeepOnion: block signature - signed by one of the coin base txout[N]'s owner
+  // FItAllCoin: block signature - signed by one of the coin base txout[N]'s owner
   std::vector<unsigned char> vchBlockSig;
 
   // memory only
@@ -914,7 +914,7 @@ public:
         return nEntropyBit;
     }
 
-    // DeepOnion: two types of block: proof-of-work or proof-of-stake
+    // FItAllCoin: two types of block: proof-of-work or proof-of-stake
     bool IsProofOfStake() const
     {
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
@@ -930,7 +930,7 @@ public:
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
     }
 
-    // DeepOnion: get max transaction timestamp
+    // FItAllCoin: get max transaction timestamp
     int64_t GetMaxTransactionTime() const
     {
         int64_t maxTransactionTime = 0;
@@ -1073,7 +1073,7 @@ public:
     bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos, const uint256& hashProofOfStake);
     bool CheckBlock(bool fCheckPOW=true, bool fCheckMerkleRoot=true, bool fCheckSig=true) const;
     bool AcceptBlock();
-    bool GetCoinAge(uint64_t& nCoinAge) const; // DeepOnion: calculate total coin age spent in block
+    bool GetCoinAge(uint64_t& nCoinAge) const; // FItAllCoin: calculate total coin age spent in block
     bool SignBlock(CWallet& keystore, int64_t nFees);
     bool CheckBlockSignature() const;
 
@@ -1101,13 +1101,13 @@ public:
     CBlockIndex* pnext;
     unsigned int nFile;
     unsigned int nBlockPos;
-    CBigNum bnChainTrust; // DeepOnion: trust score of block chain
+    CBigNum bnChainTrust; // FItAllCoin: trust score of block chain
     int nHeight;
 
     int64_t nMint;
     int64_t nMoneySupply;
 
-    unsigned int nFlags;  // DeepOnion: block index flags
+    unsigned int nFlags;  // FItAllCoin: block index flags
     enum  
     {
         BLOCK_PROOF_OF_STAKE = (1 << 0), // is proof-of-stake block

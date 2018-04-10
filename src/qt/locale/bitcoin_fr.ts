@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About DeepOnion</source>
-        <translation>Au sujet de DeepOnion</translation>
+        <source>About FItAllCoin</source>
+        <translation>Au sujet de FItAllCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;DeepOnion&lt;/b&gt; version</source>
-        <translation>Version de &lt;b&gt;DeepOnion&lt;/b&gt;</translation>
+        <source>&lt;b&gt;FItAllCoin&lt;/b&gt; version</source>
+        <translation>Version de &lt;b&gt;FItAllCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The DeepOnion developers</source>
+Copyright © 2014 The FItAllCoin developers</source>
         <translation>Copyright © 2009-2014 Les développeurs Bitcoin
 Copyright © 2012-2014 Les développeurs NovaCoin
-Copyright © 2014 Les développeurs DeepOnion</translation>
+Copyright © 2014 Les développeurs FItAllCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,7 +65,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your DeepOnion addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your FItAllCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Ce sont vos adresses pour recevoir vos paiements. Vous pouvez utiliser une adresse différente pour chaque réception afin d&apos;identifier facilement le payeur.</translation>
     </message>
     <message>
@@ -80,8 +80,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a DeepOnion address</source>
-        <translation>Signer un message afin de valider l&apos;identité de votre adresse DeepOnion</translation>
+        <source>Sign a message to prove you own a FItAllCoin address</source>
+        <translation>Signer un message afin de valider l&apos;identité de votre adresse FItAllCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified DeepOnion address</source>
-        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse DeepOnion spécifique.</translation>
+        <source>Verify a message to ensure it was signed with a specified FItAllCoin address</source>
+        <translation>Vérifier un message pour s&apos;assurer qu&apos;il vient d&apos;un adresse FItAllCoin spécifique.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -237,7 +237,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos DeepOnions&lt;/b&gt;!</translation>
+        <translation>Avertissement : Si vous chiffrez votre portefeuille et perdez votre passphrase, vous ne pourrez &lt;b&gt;plus accéder à vos FItAllCoins&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -263,8 +263,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>DeepOnion will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>L&apos;application DeepOnion va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
+        <source>FItAllCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>L&apos;application FItAllCoin va désormais se terminer afin de finaliser le processus de chiffrage. Merci de noter que le chiffrage du portefeuille ne garantit pas de se prémunir du vol via utilisation de malware, qui auraient pu infecter votre ordinateur. </translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about DeepOnion</source>
-        <translation>Afficher des informations au sujet de DeepOnion</translation>
+        <source>Show information about FItAllCoin</source>
+        <translation>Afficher des informations au sujet de FItAllCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a DeepOnion address</source>
-        <translation>Envoyer des monnaies vers une adresse DeepOnion</translation>
+        <source>Send coins to a FItAllCoin address</source>
+        <translation>Envoyer des monnaies vers une adresse FItAllCoin</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for DeepOnion</source>
-        <translation>Modification des options de configuration de DeepOnion</translation>
+        <source>Modify configuration options for FItAllCoin</source>
+        <translation>Modification des options de configuration de FItAllCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>DeepOnion</source>
-        <translation>DeepOnion</translation>
+        <source>FItAllCoin</source>
+        <translation>FItAllCoin</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About DeepOnion</source>
-        <translation>&amp;Au sujet de DeepOnion</translation>
+        <source>&amp;About FItAllCoin</source>
+        <translation>&amp;Au sujet de FItAllCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>DeepOnion client</source>
-        <translation>Client DeepOnion</translation>
+        <source>FItAllCoin client</source>
+        <translation>Client FItAllCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to DeepOnion network</source>
-        <translation><numerusform>%n connexion active au réseau DeepOnion</numerusform><numerusform>%n connexions actives au réseau DeepOnion</numerusform></translation>
+        <source>%n active connection(s) to FItAllCoin network</source>
+        <translation><numerusform>%n connexion active au réseau FItAllCoin</numerusform><numerusform>%n connexions actives au réseau FItAllCoin</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About DeepOnion card</source>
-        <translation>Au sujet de la carte DeepOnion</translation>
+        <source>About FItAllCoin card</source>
+        <translation>Au sujet de la carte FItAllCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about DeepOnion card</source>
-        <translation>Informations sur la carte DeepOnion</translation>
+        <source>Show information about FItAllCoin card</source>
+        <translation>Informations sur la carte FItAllCoin</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresse : %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid DeepOnion address or malformed URI parameters.</source>
-        <translation>L&apos;adresse du portefeuille DeepOnion n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid FItAllCoin address or malformed URI parameters.</source>
+        <translation>L&apos;adresse du portefeuille FItAllCoin n&apos;as pas pu être correctement identifiée, car invalide ou malformée.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Adresse : %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. DeepOnion can no longer continue safely and will quit.</source>
-        <translation>Une erreur fatale a été rencontrée. L&apos;application DeepOnion ne peut plus être s&apos;exécuter de façon correcte et doit se terminer.</translation>
+        <source>A fatal error occurred. FItAllCoin can no longer continue safely and will quit.</source>
+        <translation>Une erreur fatale a été rencontrée. L&apos;application FItAllCoin ne peut plus être s&apos;exécuter de façon correcte et doit se terminer.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid DeepOnion address.</source>
-        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse DeepOnion valide.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid FItAllCoin address.</source>
+        <translation>L&apos;adresse &quot;%1&quot; renseignée n&apos;est pas une adresse FItAllCoin valide.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>DeepOnion-Qt</source>
-        <translation>DeepOnion-Qt</translation>
+        <source>FItAllCoin-Qt</source>
+        <translation>FItAllCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start DeepOnion after logging in to the system.</source>
-        <translation>Démarrage automatique du client DeepOnion lors de la connexion au système</translation>
+        <source>Automatically start FItAllCoin after logging in to the system.</source>
+        <translation>Démarrage automatique du client FItAllCoin lors de la connexion au système</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DeepOnion on system login</source>
-        <translation>&amp;Démarrage du client DeepOnion à la connexion au système</translation>
+        <source>&amp;Start FItAllCoin on system login</source>
+        <translation>&amp;Démarrage du client FItAllCoin à la connexion au système</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the DeepOnion client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Ouverture automatique du port client de DeepOnion sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
+        <source>Automatically open the FItAllCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouverture automatique du port client de FItAllCoin sur le routeur. Ceci ne fonctionne que dans le cas où le support UPnP sur votre routeur existe et est actif.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the DeepOnion network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connexion au réseau DeepOnion à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
+        <source>Connect to the FItAllCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connexion au réseau FItAllCoin à travers un proxy SOCKS (e.g. Connexion via le réseau Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DeepOnion.</source>
-        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application DeepOnion</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting FItAllCoin.</source>
+        <translation>La langue d&apos;interface de l&apos;utilisateur peut être définie ici. Les modification seront prises en compte après redémarrage de l&apos;application FItAllCoin</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show DeepOnion addresses in the transaction list or not.</source>
-        <translation>Afficher les adresses DeepOnion au sein de la liste de transactions</translation>
+        <source>Whether to show FItAllCoin addresses in the transaction list or not.</source>
+        <translation>Afficher les adresses FItAllCoin au sein de la liste de transactions</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting DeepOnion.</source>
-        <translation>Les paramètres prendront effet après redémarrage du client DeepOnion</translation>
+        <source>This setting will take effect after restarting FItAllCoin.</source>
+        <translation>Les paramètres prendront effet après redémarrage du client FItAllCoin</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DeepOnion network after a connection is established, but this process has not completed yet.</source>
-        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau DeepOnion mais ce processus n&apos;est pas encore terminé.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FItAllCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Les informations affichées peuvent être obsolètes. Votre portefeuille se synchronise automatiquement avec le réseau FItAllCoin mais ce processus n&apos;est pas encore terminé.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the DeepOnion-Qt help message to get a list with possible DeepOnion command-line options.</source>
-        <translation>Afficher le message d&apos;aide DeepOnion-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande DeepOnion</translation>
+        <source>Show the FItAllCoin-Qt help message to get a list with possible FItAllCoin command-line options.</source>
+        <translation>Afficher le message d&apos;aide FItAllCoin-Qt afin d&apos;obtenir la liste des options de de L&apos;outil en ligne de commande FItAllCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="-104"/>
-        <source>DeepOnion - Debug window</source>
-        <translation>DeepOnion - Fenêtre de déboggage</translation>
+        <source>FItAllCoin - Debug window</source>
+        <translation>FItAllCoin - Fenêtre de déboggage</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>DeepOnion Core</source>
-        <translation>DeepOnion Core</translation>
+        <source>FItAllCoin Core</source>
+        <translation>FItAllCoin Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the DeepOnion debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ouvrir le fichier journal de debug DeepOnion au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
+        <source>Open the FItAllCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ouvrir le fichier journal de debug FItAllCoin au sein du répertoire courant. Cette opération peut prendre quelques secondes dans le cas de fichiers journaux volumineux.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the DeepOnion RPC console.</source>
-        <translation>Bienvenue sur la console RPC de DeepOnion.</translation>
+        <source>Welcome to the FItAllCoin RPC console.</source>
+        <translation>Bienvenue sur la console RPC de FItAllCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a DeepOnion address</source>
-        <translation>Entrer une adresse DeepOnion</translation>
+        <source>Enter a FItAllCoin address</source>
+        <translation>Entrer une adresse FItAllCoin</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid DeepOnion address</source>
-        <translation>AVERTISSEMENT: Adresse DeepOnion Invalide</translation>
+        <source>WARNING: Invalid FItAllCoin address</source>
+        <translation>AVERTISSEMENT: Adresse FItAllCoin Invalide</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1877,7 +1877,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+4"/>
         <source>WARNING: unknown change address</source>
-        <translation>AVERTISSEMENT: Adresse DeepOnion Invalide</translation>
+        <translation>AVERTISSEMENT: Adresse FItAllCoin Invalide</translation>
     </message>
 </context>
 <context>
@@ -1940,8 +1940,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a DeepOnion address </source>
-        <translation>Entrer une adresse DeepOnion </translation>
+        <source>Enter a FItAllCoin address </source>
+        <translation>Entrer une adresse FItAllCoin </translation>
     </message>
 </context>
 <context>
@@ -1965,7 +1965,7 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location line="+18"/>
         <source>The address to sign the message with </source>
-        <translation>Entrer une adresse DeepOnion </translation>
+        <translation>Entrer une adresse FItAllCoin </translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2001,8 +2001,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DeepOnion address</source>
-        <translation>Signer le message afin de prouver l&apos;identité de votre adresse DeepOnion</translation>
+        <source>Sign the message to prove you own this FItAllCoin address</source>
+        <translation>Signer le message afin de prouver l&apos;identité de votre adresse FItAllCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified DeepOnion address</source>
-        <translation>Vérifier le message afin de vous assurer qu&apos;il provient de l&apos;adresse DeepOnion spécifiée.</translation>
+        <source>Verify the message to ensure it was signed with the specified FItAllCoin address</source>
+        <translation>Vérifier le message afin de vous assurer qu&apos;il provient de l&apos;adresse FItAllCoin spécifiée.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a DeepOnion address </source>
-        <translation>Entrer une adresse DeepOnion </translation>
+        <source>Enter a FItAllCoin address </source>
+        <translation>Entrer une adresse FItAllCoin </translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter DeepOnion signature</source>
-        <translation>Entrer une signature DeepOnion</translation>
+        <source>Enter FItAllCoin signature</source>
+        <translation>Entrer une signature FItAllCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>DeepOnion version</source>
-        <translation>Version DeepOnion</translation>
+        <source>FItAllCoin version</source>
+        <translation>Version FItAllCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2635,8 +2635,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or DeepOniond</source>
-        <translation>Envoyer commande à -server ou DeepOniond</translation>
+        <source>Send command to -server or FItAllCoind</source>
+        <translation>Envoyer commande à -server ou FItAllCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,13 +2655,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: DeepOnion.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut: DeepOnion.conf)</translation>
+        <source>Specify configuration file (default: FItAllCoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut: FItAllCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: DeepOniond.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut: DeepOniond.pid)</translation>
+        <source>Specify pid file (default: FItAllCoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut: FItAllCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2810,8 +2810,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DeepOnion will not work properly.</source>
-        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. DeepOnion ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong FItAllCoin will not work properly.</source>
+        <translation>Avertissement: Veuillez vérifier la date et l&apos;heure de votre ordinateur. FItAllCoin ne pourra pas fonctionner correctement si l&apos;horloge est réglée de façon incorrecte</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3000,24 +3000,24 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=DeepOnionrpc
+rpcuser=FItAllCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DeepOnion Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;FItAllCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, vous devez définir un mot de passe rpc &apos;rpcpassword&apos; au sein du fichier de configuration:
  %s
 Il est recommandé d&apos;utiliser le mot de passe aléatoire suivant:
-rpcuser=DeepOnionrpc
+rpcuser=FItAllCoinrpc
 rpcpassword=%s
 (il n&apos;est pas nécessaire de retenir ce mot de passe)
 Le nom d&apos;utilisateur et le mot de passe doivent IMPERATIVEMENT être différents.
 Si le fichier n&apos;existe pas, il est nécessaire de le créer, avec les droit de lecture au propriétaire seulement.
 Il est également recommandé d&apos;utiliser l&apos;option alertnotify afin d&apos;être notifié des problèmes;
-par exemple: alertnotify=echo %%s | mail -s &quot;Alerte DeepOnion&quot; admin@foo.com
+par exemple: alertnotify=echo %%s | mail -s &quot;Alerte FItAllCoin&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3142,13 +3142,13 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte DeepOnion&quot; admin@f
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  DeepOnion is probably already running.</source>
-        <translation>Echec lors de la tentative de verrouillage des données du répertoire %s. L&apos;application DeepOnion est probablement déjà en cours d&apos;exécution</translation>
+        <source>Cannot obtain a lock on data directory %s.  FItAllCoin is probably already running.</source>
+        <translation>Echec lors de la tentative de verrouillage des données du répertoire %s. L&apos;application FItAllCoin est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>DeepOnion</source>
-        <translation>DeepOnion</translation>
+        <source>FItAllCoin</source>
+        <translation>FItAllCoin</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3182,13 +3182,13 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte DeepOnion&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of DeepOnion</source>
-        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application DeepOnion</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of FItAllCoin</source>
+        <translation>Erreur de chargement du fichier wallet.dat: le portefeuille nécessite une version plus récente de l&apos;application FItAllCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart DeepOnion to complete</source>
-        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application DeepOnion</translation>
+        <source>Wallet needed to be rewritten: restart FItAllCoin to complete</source>
+        <translation>Le portefeuille nécessite d&apos;être réédité : Merci de relancer l&apos;application FItAllCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3257,8 +3257,8 @@ par exemple: alertnotify=echo %%s | mail -s &quot;Alerte DeepOnion&quot; admin@f
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. DeepOnion is probably already running.</source>
-        <translation>Connexion au port %s impossible. L&apos;application DeepOnion est probablement déjà en cours d&apos;exécution</translation>
+        <source>Unable to bind to %s on this computer. FItAllCoin is probably already running.</source>
+        <translation>Connexion au port %s impossible. L&apos;application FItAllCoin est probablement déjà en cours d&apos;exécution</translation>
     </message>
     <message>
         <location line="-97"/>

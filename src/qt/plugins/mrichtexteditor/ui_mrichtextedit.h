@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mrichtextedit.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.1
+** Created by: Qt User Interface Compiler version 5.10.1
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -380,64 +380,64 @@ public:
     void retranslateUi(QWidget *MRichTextEdit)
     {
 #ifndef QT_NO_TOOLTIP
-        f_paragraph->setToolTip(QApplication::translate("MRichTextEdit", "Paragraph formatting", Q_NULLPTR));
+        f_paragraph->setToolTip(QApplication::translate("MRichTextEdit", "Paragraph formatting", nullptr));
 #endif // QT_NO_TOOLTIP
 #ifndef QT_NO_TOOLTIP
-        f_undo->setToolTip(QApplication::translate("MRichTextEdit", "Undo (CTRL+Z)", Q_NULLPTR));
+        f_undo->setToolTip(QApplication::translate("MRichTextEdit", "Undo (CTRL+Z)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_undo->setText(QApplication::translate("MRichTextEdit", "Undo", Q_NULLPTR));
+        f_undo->setText(QApplication::translate("MRichTextEdit", "Undo", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_redo->setToolTip(QApplication::translate("MRichTextEdit", "Redo", Q_NULLPTR));
+        f_redo->setToolTip(QApplication::translate("MRichTextEdit", "Redo", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_redo->setText(QApplication::translate("MRichTextEdit", "Redo", Q_NULLPTR));
+        f_redo->setText(QApplication::translate("MRichTextEdit", "Redo", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_cut->setToolTip(QApplication::translate("MRichTextEdit", "Cut (CTRL+X)", Q_NULLPTR));
+        f_cut->setToolTip(QApplication::translate("MRichTextEdit", "Cut (CTRL+X)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_cut->setText(QApplication::translate("MRichTextEdit", "Cut", Q_NULLPTR));
+        f_cut->setText(QApplication::translate("MRichTextEdit", "Cut", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_copy->setToolTip(QApplication::translate("MRichTextEdit", "Copy (CTRL+C)", Q_NULLPTR));
+        f_copy->setToolTip(QApplication::translate("MRichTextEdit", "Copy (CTRL+C)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_copy->setText(QApplication::translate("MRichTextEdit", "Copy", Q_NULLPTR));
+        f_copy->setText(QApplication::translate("MRichTextEdit", "Copy", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_paste->setToolTip(QApplication::translate("MRichTextEdit", "Paste (CTRL+V)", Q_NULLPTR));
+        f_paste->setToolTip(QApplication::translate("MRichTextEdit", "Paste (CTRL+V)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_paste->setText(QApplication::translate("MRichTextEdit", "Paste", Q_NULLPTR));
+        f_paste->setText(QApplication::translate("MRichTextEdit", "Paste", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_link->setToolTip(QApplication::translate("MRichTextEdit", "Link (CTRL+L)", Q_NULLPTR));
+        f_link->setToolTip(QApplication::translate("MRichTextEdit", "Link (CTRL+L)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_link->setText(QApplication::translate("MRichTextEdit", "Link", Q_NULLPTR));
-        f_bold->setText(QApplication::translate("MRichTextEdit", "Bold", Q_NULLPTR));
+        f_link->setText(QApplication::translate("MRichTextEdit", "Link", nullptr));
+        f_bold->setText(QApplication::translate("MRichTextEdit", "Bold", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_italic->setToolTip(QApplication::translate("MRichTextEdit", "Italic (CTRL+I)", Q_NULLPTR));
+        f_italic->setToolTip(QApplication::translate("MRichTextEdit", "Italic (CTRL+I)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_italic->setText(QApplication::translate("MRichTextEdit", "Italic", Q_NULLPTR));
+        f_italic->setText(QApplication::translate("MRichTextEdit", "Italic", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_underline->setToolTip(QApplication::translate("MRichTextEdit", "Underline (CTRL+U)", Q_NULLPTR));
+        f_underline->setToolTip(QApplication::translate("MRichTextEdit", "Underline (CTRL+U)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_underline->setText(QApplication::translate("MRichTextEdit", "Underline", Q_NULLPTR));
-        f_strikeout->setText(QApplication::translate("MRichTextEdit", "Strike Out", Q_NULLPTR));
+        f_underline->setText(QApplication::translate("MRichTextEdit", "Underline", nullptr));
+        f_strikeout->setText(QApplication::translate("MRichTextEdit", "Strike Out", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_list_bullet->setToolTip(QApplication::translate("MRichTextEdit", "Bullet list (CTRL+-)", Q_NULLPTR));
+        f_list_bullet->setToolTip(QApplication::translate("MRichTextEdit", "Bullet list (CTRL+-)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_list_bullet->setText(QApplication::translate("MRichTextEdit", "Bullet list", Q_NULLPTR));
+        f_list_bullet->setText(QApplication::translate("MRichTextEdit", "Bullet list", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_list_ordered->setToolTip(QApplication::translate("MRichTextEdit", "Ordered list (CTRL+=)", Q_NULLPTR));
+        f_list_ordered->setToolTip(QApplication::translate("MRichTextEdit", "Ordered list (CTRL+=)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_list_ordered->setText(QApplication::translate("MRichTextEdit", "Ordered list", Q_NULLPTR));
+        f_list_ordered->setText(QApplication::translate("MRichTextEdit", "Ordered list", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_indent_dec->setToolTip(QApplication::translate("MRichTextEdit", "Decrease indentation (CTRL+,)", Q_NULLPTR));
+        f_indent_dec->setToolTip(QApplication::translate("MRichTextEdit", "Decrease indentation (CTRL+,)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_indent_dec->setText(QApplication::translate("MRichTextEdit", "Decrease indentation", Q_NULLPTR));
+        f_indent_dec->setText(QApplication::translate("MRichTextEdit", "Decrease indentation", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_indent_inc->setToolTip(QApplication::translate("MRichTextEdit", "Increase indentation (CTRL+.)", Q_NULLPTR));
+        f_indent_inc->setToolTip(QApplication::translate("MRichTextEdit", "Increase indentation (CTRL+.)", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_indent_inc->setText(QApplication::translate("MRichTextEdit", "Increase indentation", Q_NULLPTR));
+        f_indent_inc->setText(QApplication::translate("MRichTextEdit", "Increase indentation", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_bgcolor->setToolTip(QApplication::translate("MRichTextEdit", "Text background color", Q_NULLPTR));
+        f_bgcolor->setToolTip(QApplication::translate("MRichTextEdit", "Text background color", nullptr));
 #endif // QT_NO_TOOLTIP
-        f_bgcolor->setText(QApplication::translate("MRichTextEdit", ".", Q_NULLPTR));
+        f_bgcolor->setText(QApplication::translate("MRichTextEdit", ".", nullptr));
 #ifndef QT_NO_TOOLTIP
-        f_fontsize->setToolTip(QApplication::translate("MRichTextEdit", "Font size", Q_NULLPTR));
+        f_fontsize->setToolTip(QApplication::translate("MRichTextEdit", "Font size", nullptr));
 #endif // QT_NO_TOOLTIP
         Q_UNUSED(MRichTextEdit);
     } // retranslateUi

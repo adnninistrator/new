@@ -40,8 +40,8 @@
         <file alias="staking_off">res/icons/staking_off.png</file>
         <file alias="staking_on">res/icons/staking_on.png</file>
         <file alias="messaging">res/icons/message.png</file>
-        <file alias="bitcoin">res/icons/DeepOnion.png</file>
-        <file alias="bitcoin_testnet">res/icons/DeepOnion_testnet.png</file>
+        <file alias="bitcoin">res/icons/FItAllCoin.png</file>
+        <file alias="bitcoin_testnet">res/icons/FItAllCoin_testnet.png</file>
         <file alias="toolbar">res/icons/toolbar.png</file>
         <file alias="toolbar_testnet">res/icons/toolbar_testnet.png</file>
         <file alias="tor_active">res/icons/tor.png</file>

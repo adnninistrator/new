@@ -74,7 +74,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // DeepOnion: synchronized checkpoint (centrally broadcasted)
+    // FItAllCoin: synchronized checkpoint (centrally broadcasted)
     uint256 hashSyncCheckpoint = 0;
     uint256 hashPendingCheckpoint = 0;
     CSyncCheckpoint checkpointMessage;
@@ -82,7 +82,7 @@ namespace Checkpoints
     uint256 hashInvalidCheckpoint = 0;
     CCriticalSection cs_hashSyncCheckpoint;
 
-    // DeepOnion: get last synchronized checkpoint
+    // FItAllCoin: get last synchronized checkpoint
     CBlockIndex* GetLastSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -93,7 +93,7 @@ namespace Checkpoints
         return NULL;
     }
 
-    // DeepOnion: only descendant of current sync-checkpoint is allowed
+    // FItAllCoin: only descendant of current sync-checkpoint is allowed
     bool ValidateSyncCheckpoint(uint256 hashCheckpoint)
     {
         if (!mapBlockIndex.count(hashSyncCheckpoint))
@@ -246,7 +246,7 @@ namespace Checkpoints
         return false;
     }
 
-    // DeepOnion: reset synchronized checkpoint to last hardened checkpoint
+    // FItAllCoin: reset synchronized checkpoint to last hardened checkpoint
     bool ResetSyncCheckpoint()
     {
         LOCK(cs_hashSyncCheckpoint);
@@ -357,12 +357,12 @@ namespace Checkpoints
     }
 }
 
-// DeepOnion: sync-checkpoint master key
+// FItAllCoin: sync-checkpoint master key
 const std::string CSyncCheckpoint::strMasterPubKey = "040ca85222159767e5ef1e9640418ddaf37990c3c62e13f5d52cc9620ef1597d7571cf35f670c176f1f28fabcf371d0eadfee616c0ee5385600eaeba3482f3bac2";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 
-// DeepOnion: verify signature of sync-checkpoint message
+// FItAllCoin: verify signature of sync-checkpoint message
 bool CSyncCheckpoint::CheckSignature()
 {
     CKey key;
@@ -377,7 +377,7 @@ bool CSyncCheckpoint::CheckSignature()
     return true;
 }
 
-// DeepOnion: process synchronized checkpoint
+// FItAllCoin: process synchronized checkpoint
 bool CSyncCheckpoint::ProcessSyncCheckpoint(CNode* pfrom)
 {
     if (!CheckSignature())

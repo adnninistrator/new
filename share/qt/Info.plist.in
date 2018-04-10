@@ -11,13 +11,13 @@
   </array>
 
   <key>CFBundleIconFile</key>
-  <string>DeepOnion.icns</string>
+  <string>FItAllCoin.icns</string>
 
   <key>CFBundlePackageType</key>
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2017-@COPYRIGHT_YEAR@ The DeepOnion developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2017-@COPYRIGHT_YEAR@ The FItAllCoin developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>DeepOnion-Qt</string>
+  <string>FItAllCoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.deeponion.DeepOnion-Qt</string>
+  <string>org.deeponion.FItAllCoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.deeponion.DeepOnionPayment</string>
+      <string>org.deeponion.FItAllCoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>deeponion</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>org.deeponion.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>DeepOnion payment request</string>
+      <string>FItAllCoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
